@@ -1,0 +1,12 @@
+# .gitignore
+
+# Ignore Terraform lock file
+**/*.terraform.lock.hcl
+
+# Ignore Terraform directories
+**/.terraform/
+
+# Ignore Terraform state files
+**/*terraform.tfstate
+**/*terraform.tfstate.backup
+       
